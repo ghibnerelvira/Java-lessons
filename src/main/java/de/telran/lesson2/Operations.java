@@ -22,9 +22,18 @@ public class Operations {
         System.out.println("argF1 / argF2 =" +divF);
         System.out.println("argF1 % argF2 =" +ostF);
 
-        String str1 = "Kaffe", str2 = "Milch";
+        String str1 = "Kaffe", str2 = " Milch";
         String sumstr = str1 + str2;
         System.out.println("str1 +  str2 = "+sumstr);
+
+        char c1 = 'k', c2 = 'm';
+        int sumChar = c1 + c2;
+        System.out.println(sumChar);
+        System.out.println(Character.getNumericValue(c1)+ "+" + Character.getNumericValue(c2));
+        // решение и за таблицы unicode (сложил k=5 + m=78 =216)
+        // char исползуется только для анализа -> Быть осторожным при арифметических оперфций с char
+
+
 
     }
 }
