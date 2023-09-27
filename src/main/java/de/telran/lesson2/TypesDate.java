@@ -5,7 +5,13 @@ public class TypesDate {
         int myInt;
         myInt = 25;
         System.out.println(myInt);
+
         int myIntOther = 10;
+
+
+        // преметивное значение кроме Сharakter
+        Integer myIntObj =10;
+
 
         myInt = 13;
         System.out.println(myInt);

@@ -10,19 +10,19 @@ public class Operations {
         int div = arg1 / arg2;
         int ost = arg1 % arg2;
 
-        System.out.println("arg1 + arg2 =" +sum);
-        System.out.println("arg1 - arg2 =" +dif);
-        System.out.println("arg1 * arg2 =" +mult);
-        System.out.println("arg1 / arg2 =" +div);
-        System.out.println("arg1 % arg2 =" +ost);
+        System.out.println("arg1 + arg2 = " +sum);
+        System.out.println("arg1 - arg2 = " +dif);
+        System.out.println("arg1 * arg2 = " +mult);
+        System.out.println("arg1 / arg2 = " +div);
+        System.out.println("arg1 % arg2 = " +ost);
         // System.out.println("arg1 / arg2 =" +(arg1 / 0)); -> делить на ноль в int нельзя!!
 
         float argF1 = 25, agrF2 = 4;
         float divF = argF1 / agrF2;
         float ostF= argF1 % agrF2;
-        System.out.println("argF1 / argF2 =" +divF);
-        System.out.println("argF1 % argF2 =" +ostF);
-        System.out.println("argF1 / argF2 =" +(argF1 /0)); // можно делить но покажет бесконечно
+        System.out.println("argF1 / argF2 = " +divF);
+        System.out.println("argF1 % argF2 = " +ostF);
+        System.out.println("argF1 / argF2 = " +(argF1 /0)); // можно делить но покажет бесконечно
 
         String str1 = "Kaffe", str2 = " Milch";
         String sumstr = str1 + str2;
