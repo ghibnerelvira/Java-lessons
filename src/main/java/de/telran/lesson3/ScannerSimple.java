@@ -35,7 +35,6 @@ public class ScannerSimple {
         String myStr = scannerStr.nextLine();
         System.out.println(myStr);
 
-
     }
 
 }
