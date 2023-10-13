@@ -1,6 +1,6 @@
 package de.telran.lesson10;
 
-public class Weekend {
+public class WeekendWithSwitch {
     public static void main(String[] args) {
 
         int day = 2; // указывает поиск
