@@ -4,7 +4,7 @@ public class Auto {
 
     // относится к (1.) возможности
     String model;
-    int year;
+    public int year;
     int mileage;
     String color;
 
@@ -42,11 +42,20 @@ public class Auto {
 
     // 4. возможность конструктора с помошью (this)-> (3 и больше аргумента)
     // принадлежит текушему обьекту
-    Auto(String model, int year, int mileage) {  // параметыр -> вид и количество
+    public Auto(String model, int year, int mileage) {  // параметыр -> вид и количество
         this.model = model;
         this.year = year;
         this.mileage = mileage;
     }
+    // public указать чтобы было видно в Lesson 14
 
-
+    // Для  Lesson 14
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "model='" + model + '\'' +
+                ", year=" + year +
+                ", mileage=" + mileage +
+                '}';
+    }
 }
