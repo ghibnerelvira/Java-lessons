@@ -10,4 +10,17 @@ public class Utils {
         int[] arr = {1,2,3};
         return arr;
     }
+
+    public int findMax(int[] arr) {
+        if(arr == null || arr.length == 0)
+            return Integer.MIN_VALUE;
+
+        int max = Integer.MIN_VALUE;
+        for (int element : arr){
+            if(max < element){
+                max = element;
+            }
+        }
+        return max;
+    }
 }

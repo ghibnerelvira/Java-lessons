@@ -53,4 +53,26 @@ class UtilsTest {
 
         Assertions.assertArrayEquals(expArr, actualArr);
     }
+
+    // тест, который проверяет пустой массив или нет
+    // тест, который проверяет правильность поиска максимального значения
+    @Test
+    void findMaxTestEmptyArray() {
+        int expResult = Integer.MIN_VALUE;
+        int[] expEmptyArray = new int[0];
+        int actualMax= testUtils.findMax(expEmptyArray);
+        // Если мы передодим пустой массив или null
+        Assertions.assertEquals(expResult, actualMax);
+
+    }
+
+    @Test
+    void findMaxTestTrueMaxValue() {
+        int expResult = 8;
+        int[] expArray = {1,3,8,2,4};
+        int actualMax= testUtils.findMax(expArray);
+        // Если мы передодим пустой массив или null
+        Assertions.assertEquals(expResult, actualMax);
+
+    }
 }
