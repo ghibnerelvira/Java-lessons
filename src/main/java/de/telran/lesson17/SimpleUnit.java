@@ -8,5 +8,7 @@ public class SimpleUnit {
         Utils utils = new Utils();
         int[] myArr = utils.getNumbers();
         System.out.println(Arrays.toString(myArr));
+        int max = utils.findMax(utils.getNumbers());
+        System.out.println(max);
     }
 }
