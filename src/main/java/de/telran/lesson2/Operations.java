@@ -28,7 +28,7 @@ public class Operations {
         String sumstr = str1 + str2;
         System.out.println("str1 +  str2 = "+sumstr);
 
-        char c1 = 'k', c2 = 'm';
+        char c1 = 'k', c2 = 'm'; // только одна буква
         int sumChar = c1 + c2;
         System.out.println(sumChar);
         System.out.println(Character.getNumericValue(c1)+ "+" + Character.getNumericValue(c2));
