@@ -1,4 +1,4 @@
-package de.telran.summary4;
+package de.telran.summary3;
 
 public class MinMaxAverage {
 

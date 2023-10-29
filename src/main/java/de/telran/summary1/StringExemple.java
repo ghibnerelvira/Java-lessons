@@ -1,4 +1,4 @@
-package de.telran.summary2;
+package de.telran.summary1;
 
 import java.util.Locale;
 

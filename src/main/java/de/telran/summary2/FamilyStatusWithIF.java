@@ -1,4 +1,4 @@
-package de.telran.summary3;
+package de.telran.summary2;
 
 import java.util.Scanner;
 

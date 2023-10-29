@@ -1,4 +1,4 @@
-package de.telran.summary4;
+package de.telran.summary3;
 
 public class PracticeFor {
     // Вывести на экран всё таблицу умножения в виде -> i * g

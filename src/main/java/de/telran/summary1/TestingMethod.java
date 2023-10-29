@@ -1,4 +1,4 @@
-package de.telran.summary2;
+package de.telran.summary1;
 
 public class TestingMethod {
     public static void main(String[] args) {

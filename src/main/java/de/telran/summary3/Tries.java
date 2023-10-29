@@ -1,6 +1,5 @@
-package de.telran.summary4;
+package de.telran.summary3;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Tries {

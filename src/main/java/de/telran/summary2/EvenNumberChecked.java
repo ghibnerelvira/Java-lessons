@@ -1,4 +1,4 @@
-package de.telran.summary3;
+package de.telran.summary2;
 
 public class EvenNumberChecked {
     // Написать метод который проверяетб является ли чесло чётным (even)
